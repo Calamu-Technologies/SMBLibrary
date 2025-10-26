@@ -11,7 +11,7 @@ using Utilities;
 
 namespace SMBLibrary.Server
 {
-    internal class ConnectionManager
+    public class ConnectionManager
     {
         private List<ConnectionState> m_activeConnections = new List<ConnectionState>();
 
